@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:14
 ENV NODE_OPTIONS=--openssl-legacy-provider
 LABEL maintainer="Nightscout Contributors"
 
