@@ -1,5 +1,5 @@
 FROM node:20
-
+ENV NODE_OPTIONS=--openssl-legacy-provider
 LABEL maintainer="Nightscout Contributors"
 
 RUN mkdir -p /opt/app
