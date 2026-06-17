@@ -13,6 +13,6 @@ RUN npm install && \
   npm run env
   
 
-EXPOSE 1337
+EXPOSE 10000
 
 CMD ["node", "lib/server/server.js"]
