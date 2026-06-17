@@ -10,8 +10,8 @@ USER node
 
 RUN npm install && \
   npm run postinstall && \
-  npm run env && \
-  npm audit fix
+  npm run env
+  
 
 EXPOSE 1337
 
